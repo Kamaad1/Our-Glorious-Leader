@@ -25,6 +25,7 @@ body {
 .nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; /* Center-align navigation items */
 }
 
 .nav ul li {
@@ -62,6 +63,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center form elements */
+    justify-content: center; /* Vertically center form elements */
 }
 
 form input {
@@ -69,6 +71,7 @@ form input {
     padding: 10px;
     border: none;
     border-radius: 5px;
+    width: 80%; /* Set width for input fields */
 }
 
 form button {
@@ -78,6 +81,7 @@ form button {
     background-color: #4b0082;
     color: white;
     cursor: pointer;
+    width: 80%; /* Set width for the button */
 }
 
 form button:hover {
