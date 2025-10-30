@@ -89,7 +89,7 @@ form button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #f5f5dc;
+    background-color: #2c2c2c;
     color: white;
     cursor: pointer;
     width: 80%; /* Set width for the button */
@@ -105,4 +105,3 @@ form button:hover {
     padding: 15px 0;
     background-color: #2c2c2c;
 }
-
